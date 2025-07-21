@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, Ubuntu, Cantarell, 'Fira Sans', sans-serif;
+  background-color: #111b21;
+  color: #e9edef;
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b4a54;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a5c6a;
+}
+
+/* Message animations */
+@keyframes messageSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-slide-in {
+  animation: messageSlideIn 0.2s ease-out;
+}
+
+/* Typing indicator animation */
+@keyframes typing {
+  0%, 60%, 100% {
+    transform: initial;
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+}
+
+.typing-dot {
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+/* Online status pulse */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.online-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Message status icons */
+.message-status {
+  transition: color 0.2s ease;
+}
+
+/* Hover effects */
+.hover-bg {
+  transition: background-color 0.15s ease;
+}
+
+.hover-bg:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Chat input focus */
+.chat-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 168, 132, 0.3);
+}
+
+/* Emoji picker custom styles */
+.EmojiPickerReact {
+  --epr-bg-color: #202c33 !important;
+  --epr-category-label-bg-color: #202c33 !important;
+  --epr-search-input-bg-color: #2a3942 !important;
+  --epr-text-color: #e9edef !important;
+  --epr-search-border-color: #3b4a54 !important;
+  --epr-category-navigation-button-color: #8696a0 !important;
+  --epr-hover-bg-color: rgba(255, 255, 255, 0.1) !important;
+}
