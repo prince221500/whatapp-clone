@@ -12,7 +12,7 @@
 
 </h1>
 <h1> home page chat Interface  </h1>
-<p><img align="left" src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image1.png" alt="prince221500" /></p>
+<p><img align="center" src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image1.png" alt="prince221500" /></p>
 
 <p> <h3>Show Status </h3> </p>
 <img align="center"  src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image3.png" alt="Status section" />
@@ -24,5 +24,5 @@
 
   <p>
     <h3>Profile Update Setting</h3>
-    <img ssrc="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image5.png" alt="profile Setting"/>
+    <img align="center" src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image5.png" alt="profile Setting"/>
   </p>
