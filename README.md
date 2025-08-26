@@ -18,6 +18,11 @@
 <img align="center"  src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image3.png" alt="Status section" />
 
 <p>
-<h3> </h3>
-  
-</p>
+<h3>Calling interface  with recent history </h3> 
+<img align="center" src="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image4.png" alt="Call history"/>
+  </p>
+
+  <p>
+    <h3>Profile Update Setting</h3>
+    <img ssrc="https://github.com/prince221500/whatapp-clone/blob/main/imamge/image5.png" alt="profile Setting"/>
+  </p>
